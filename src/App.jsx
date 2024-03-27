@@ -4,11 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Provider } from "react-redux";
 import store from "./Redux/cake/store";
+import CakeContainer from "./components/CakeContainer";
 
 function App() {
   return (
     <Provider store={store}>
       <h1>REDUX</h1>
+      <CakeContainer />
     </Provider>
   );
 }

@@ -2,7 +2,7 @@ const initialState = {
   numOfCakes: 10,
 };
 
-function cakeReducer(state = numOfCakes, action) {
+function cakeReducer(state= "numOfCakes", action) {
   switch (action.type) {
     case "BUY_CAKE": {
       return {
@@ -10,7 +10,7 @@ function cakeReducer(state = numOfCakes, action) {
         numOfCakes: state.numOfCakes - 1,
       };
     }
-    default: 
+    default:
       return state;
   }
 }
