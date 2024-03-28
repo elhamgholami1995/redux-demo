@@ -7,9 +7,9 @@ function CakeContainer() {
   const dispatch = useDispatch();
   const [value, setValue] = useState("");
   return (
-    <div>
+    <div className="cake">
       <h2>Cake Number:{state.numOfCakes}</h2>
-      <input
+      <input 
         type="number"
         value={value}
         onChange={(e) => setValue(e.target.value)}

@@ -5,7 +5,7 @@ function MilkContainer() {
   const milk = useSelector((state) => state.milk);
   const dispatch = useDispatch();
   return (
-    <div>
+    <div className="milk">
       <h2>Milk Number : {milk.numOfMilks}</h2>
       <button onClick={() => dispatch(buyMilk())}>Buy Milk</button>
     </div>

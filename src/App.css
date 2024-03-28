@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+
+
+div{
+  border: 1px solid #fafafa;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+}
+.cake,.milk{
+  display: flex;
+  flex-direction: column;
+}
+
+.cake input{
+  margin-bottom: 10px;
+}
