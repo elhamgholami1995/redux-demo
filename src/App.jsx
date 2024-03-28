@@ -5,12 +5,14 @@ import "./App.css";
 import { Provider } from "react-redux";
 import store from "./Redux/store";
 import CakeContainer from "./components/CakeContainer";
+import MilkContainer from "./components/MilkContainer";
 
 function App() {
   return (
     <Provider store={store}>
       <h1>REDUX</h1>
       <CakeContainer />
+      <MilkContainer />
     </Provider>
   );
 }
