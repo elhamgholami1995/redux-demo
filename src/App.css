@@ -41,18 +41,22 @@
   color: #888;
 }
 
+.main {
+  display: flex;
+}
 
-div{
+div {
   border: 1px solid #fafafa;
   border-radius: 15px;
   margin: 10px;
   padding: 10px;
 }
-.cake,.milk{
+.cake,
+.milk {
   display: flex;
   flex-direction: column;
 }
 
-.cake input{
+.cake input {
   margin-bottom: 10px;
 }

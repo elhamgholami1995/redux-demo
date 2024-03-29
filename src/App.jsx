@@ -6,13 +6,18 @@ import { Provider } from "react-redux";
 import store from "./Redux/store";
 import CakeContainer from "./components/CakeContainer";
 import MilkContainer from "./components/MilkContainer";
+import UsersList from "./components/UsersList";
 
 function App() {
   return (
     <Provider store={store}>
       <h1>REDUX</h1>
-      <CakeContainer />
-      <MilkContainer />
+      <div className="main">
+        <CakeContainer />
+        <MilkContainer />
+        <hr />
+        <UsersList />
+      </div>
     </Provider>
   );
 }
